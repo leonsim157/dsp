@@ -118,7 +118,7 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: command line created a file within our test directory, output is blank b/c action was executed
+command line created a file within our test directory, output is blank b/c action was executed
 
 The greater than says, "put that output into the following file instead."
 
@@ -146,7 +146,7 @@ Nice.
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
 
-curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt. 
+```curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt. ```
 
 Now that we have the data file, let's learn how to manipulate files.
 
