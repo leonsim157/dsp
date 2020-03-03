@@ -118,7 +118,7 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: command line created a file within our test directory, output is blank b/c action was executed
 
 The greater than says, "put that output into the following file instead."
 
